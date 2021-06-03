@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(230, 245, 189);
+}
+.container{
+    margin-top: 60px;
+    text-align: center;
+}
+.calculator{
+    display: inline-block;
+    background-color: rgb(22 22 27 / 77%);
+    padding: 10px 15px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 8px;
+}
+h1{
+    color: lightgreen;
+    font-size: 30px;
+}
+input{
+    color:rgb(253, 7, 7);
+    font-size: 33px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-top: 15px;
+    width: 330px;
+    height: 55px;
+    border: rgb(219, 11, 11) solid 4px;
+    border-radius: 5px;
+}
+input:focus{
+    outline: 0;
+}
+table{
+    margin: 0 auto;
+    margin-top: 5px;
+}
+button{
+    font-size: 25px;
+    width: 79px;
+    height: 60px;
+    background-color: rgba(82, 231, 231, 0.774);
+    border-radius: 23px;
+    border: none ;
+    margin: 0px 3px;
+}
+button:hover{
+    font-size: 29px;
+    font-weight: bold;
+    width: 75px;
+    height: 53px;
+    color: Maroon;
+    background-color: rgb(221, 194, 42);
+    border-radius: 18px;
+    border: none ;
+    transition: .4s;
+}
+.operator:hover{
+    color: rgb(237, 238, 211);
+    background-color: rgb(236, 96, 14);
+}
+.equal-operator{
+    background-color: rgba(122, 230, 21, 0.788);
+    color: rgb(36, 67, 71);
+}
+.equal-operator:hover{
+    background-color: rgba(235, 17, 17, 0.788);
+    color: cornsilk;
+}
+.clear{
+    background-color: rgba(235, 17, 17, 0.788);
+    color: cornsilk;
+
+}
+.clear:hover{
+    background-color: rgba(122, 230, 21, 0.788);
+    color: rgb(36, 67, 71);
+}
+
+.backspace{
+    background-color: rgb(219, 110, 47);
+    color: cornsilk;
+}
+.backspace:hover{
+    background-color: rgba(211, 82, 168, 0.788);
+    color: cornsilk;
+}
+.operator{
+    background-color: rgba(111, 196, 245, 0.74);
+    color: rgb(250, 242, 126);
+}

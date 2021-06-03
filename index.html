@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+        <h1><b>Calculator</b> <small> &#169; Shab Uddin</small></h1>
+            <input type="text" name="screen" id="screen">
+            <table>
+            <tr>
+                <td><button class="clear" id="c" onclick=clearAll() >C</button></td>
+                <td><button class="backspace" id="ce" onclick=clearLastOne()>CE</button></td>
+                <td><button class="operator" id="percent">%</button></td>
+                <td><button class="operator" id="div">/</button></td>
+            </tr>
+            <tr>
+                <td><button id="digit">7</button></td>
+                <td><button id="digit">8</button></td>
+                <td><button id="digit">9</button></td>
+                <td><button class="operator" id="mul">*</button></td>
+            </tr>
+            <tr>
+                <td><button id="digit">4</button></td>
+                <td><button id="digit">5</button></td>
+                <td><button id="digit">6</button></td>
+                <td><button class="operator" id="sub">-</button></td>
+            </tr>
+            <tr>
+                <td><button id="digit">1</button></td>
+                <td><button id="digit">2</button></td>
+                <td><button id="digit">3</button></td>
+                <td><button class="operator" id="add">+</button></td>
+            </tr>
+            <tr>
+                <td><button id="digit">.</button></td>
+                <td><button id="digit">0</button></td>
+                <td><button id="digit">00</button></td>
+                <td><button class="equal-operator" id="equal" onclick=equals() >=</button></td>
+            </tr>
+        </table>
+    </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
